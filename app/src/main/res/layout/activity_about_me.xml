@@ -52,4 +52,22 @@
         android:text="Signout"
         android:onClick="signOut"
         />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="write to database"
+        android:onClick="WRITE"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="read from database"
+        android:onClick="READ"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to chat"
+        android:onClick="Chat"
+        />
 </LinearLayout>
